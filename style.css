@@ -125,3 +125,44 @@ a{
   background-color: #5aa323;
 }
 /* จบcss ของ Booth Directory Page*/
+
+/* เริ่มcss ของ Home page */
+.story-homepage-section {
+  border: 1px solid #ddd;
+  margin: 24px;
+  padding: 20px;
+  border-radius: 8px;
+  background: #fff;
+}
+.story-homepage-section h2 {
+  text-align: center;
+  color: red;
+}
+.sub-story-homepage {
+  text-align: center;
+}
+.link-another-page-in-homepage {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  height: 100vh;
+  width: 100%;
+}
+.sidebar-homepage {
+  border: 1px solid #ddd;
+  margin-right: 20px;
+  border-radius: 8px;
+}
+.maincontent-homepage {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+.link-homepage {
+  margin-left: 20px;
+}
+.member {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  text-align: center;
+}
+
+/* จบcss ของ Home page */
