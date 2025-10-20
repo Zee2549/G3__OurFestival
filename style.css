@@ -166,3 +166,50 @@ a{
 }
 
 /* จบcss ของ Home page */
+
+/* เริ่มcss ของ Booth Page*/
+
+.Booth-container-section {
+  background: #fff;
+  margin: 24px;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+.Booth-owner-img {
+  width: 80px;
+  height: 80px;
+  border: 1px solid #aaa;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 80px;
+  font-size: 13px;
+  color: #666;
+}
+
+.Booth-container-card {
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+.Booth-item-card {
+  flex: 45%;
+  align-items: center;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  background: #fff;
+  margin: 5px 5px;
+  text-align: center;
+}
+
+.Booth-container-contact {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 12px;
+  margin-bottom: 24px;
+  background-color: #ffffff;
+}
+
+/* จบcss ของ Booth page */
