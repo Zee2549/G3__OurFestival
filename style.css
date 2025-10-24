@@ -129,8 +129,8 @@ a{
 /* เริ่มcss ของ Home page */
 .story-homepage-section {
   border: 1px solid #ddd;
-  margin: 24px;
-  padding: 20px;
+  margin: 1.5%;
+  padding: 2%;
   border-radius: 8px;
   background: #fff;
 }
@@ -143,26 +143,58 @@ a{
 }
 .link-another-page-in-homepage {
   display: grid;
-  grid-template-columns: 20% 80%;
-  height: 100vh;
+  grid-template-columns: 30% 70%;
+  height: 50vh;
   width: 100%;
+  padding-left: 1.5%;
+  padding-right: 1.5%;
 }
 .sidebar-homepage {
   border: 1px solid #ddd;
-  margin-right: 20px;
+  margin-right: 5%;
   border-radius: 8px;
+  
 }
 .maincontent-homepage {
   border: 1px solid #ddd;
   border-radius: 8px;
 }
 .link-homepage {
-  margin-left: 20px;
+  margin-left: 4%;
+  margin-right: 4%;
+  background-color: #4b4b4b;
+  color: white;
+  padding: 4% 8%;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+  transition: background-color 0.3s, transform 0.2s;
+  text-decoration: none;
+  white-space: normal;
+  display: flex;
+  
+}
+.link-homepage:hover {
+  background-color: #666;
+  transform: translateY(-2px);
+
 }
 .member {
+  padding-left: 1.5%;
+  padding-right: 1.5%;
+}
+.name-member {
   border: 1px solid #ddd;
   border-radius: 8px;
+}
+.name-member h2 {
   text-align: center;
+}
+.member-list{
+  width: 700px;
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
 }
 
 /* จบcss ของ Home page */
