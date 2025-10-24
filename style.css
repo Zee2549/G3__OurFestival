@@ -272,3 +272,19 @@ a{
 
 /* เริ่มcss ของ Booth4 page*/
 /* จบcss ของ Booth4 page */
+
+/* เริ่มcss ของ Registration page*/
+
+.registration-head {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.registration-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+/* จบcss ของ Registration page */
