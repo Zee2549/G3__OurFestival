@@ -199,7 +199,7 @@ a{
 
 /* จบcss ของ Home page */
 
-/* เริ่มcss ของ Booth Page*/
+/* เริ่มcss ของ All Booth page*/
 
 .Booth-container-section {
   background: #fff;
@@ -209,9 +209,14 @@ a{
   border: 1px solid #ddd;
 }
 
+.Booth-container-upper-part {
+  display: flex;
+  gap: 30px;
+}
+
 .Booth-owner-img {
-  width: 80px;
-  height: 80px;
+  width: 120px;
+  height: 125px;
   border: 1px solid #aaa;
   border-radius: 50%;
   text-align: center;
@@ -223,10 +228,10 @@ a{
 .Booth-container-card {
   display: flex;
   flex-wrap: wrap;
-  
+  justify-content: center;
 }
 .Booth-item-card {
-  flex: 45%;
+  flex: 0 0 48%;
   align-items: center;
   border: 1px solid #ddd;
   border-radius: 8px;
@@ -237,6 +242,8 @@ a{
 }
 
 .Booth-container-contact {
+  gap: 10px;
+  padding: 20px 40%;
   border: 1px solid #ccc;
   border-radius: 8px;
   padding: 12px;
@@ -244,4 +251,24 @@ a{
   background-color: #ffffff;
 }
 
-/* จบcss ของ Booth page */
+.Booth-contact-img {
+  height: 70px;
+  width: 70px;
+}
+
+/* จบcss ของ All Booth page */
+
+/* เริ่มcss ของ Booth1 page*/
+/* จบcss ของ Booth1 page */
+
+
+/* เริ่มcss ของ Booth2 page*/
+/* จบcss ของ Booth2 page */
+
+
+/* เริ่มcss ของ Booth3 page*/
+/* จบcss ของ Booth3 page */
+
+
+/* เริ่มcss ของ Booth4 page*/
+/* จบcss ของ Booth4 page */
