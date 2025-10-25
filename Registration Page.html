@@ -11,6 +11,13 @@
 <body>
 
 <div class="container border border-secondary rounded mt-3 p-4">
+    <nav class="d-flex justify-content-end gap-3 mb-4">
+        <a href="Homepage.html">หน้าแรก</a>
+        <a href="Registration Page.html">ลงทะเบียน</a>
+    </nav>
+</div>
+
+<div class="container border border-secondary rounded mt-3 p-4">
     <div>
         <h2 class="registration-head">ลงทะเบียน</h2>
     </div>
@@ -28,12 +35,12 @@
 
         <label>เพศ:</label><br>
         <input type="radio" name="gender" value="male"> ชาย
-        <input type="radio" name="gender" value="female" style="margin-left: 20px ">  หญิง
-        <input type="radio" name="gender" value="others" style="margin-left: 20px ">  อื่นๆ<br><br>
+        <input type="radio" name="gender" value="female" class="radio">  หญิง
+        <input type="radio" name="gender" value="others" class="radio">  อื่นๆ<br><br>
 
         <label>ท่านเป็นนักศึกษามหาวิทยาลัยธรรมศาสตร์หรือไม่?</label><br>
         <input type="radio" name="thammasat_student" value="yes"> ใช่
-        <input type="radio" name="thammasat_student" value="no" style="margin-left: 20px ">  ไม่ใช่ <br><br>
+        <input type="radio" name="thammasat_student" value="no" class="radio">  ไม่ใช่ <br><br>
 
         <label>คณะ:
             <p>(หากท่านเป็นนักศึกษามหาวิทยาลัยธรรมศาสตร์)</p>
@@ -65,11 +72,14 @@
         <input type="checkbox" name="newsletter"> อนุญาตให้ส่งสิทธิพิเศษสำหรับผู้ลงทะเบียนล่วงหน้า<br><br>
 
         <button type="submit">ยืนยัน</button>
-        <button type="reset" style="margin-left: 10px">รีเซ็ต</button>
+        <button type="reset" class="reset-btn">รีเซ็ต</button>
 
     </form>
     </div>
 </div>
+<footer class="container-fluid bg-light py-3 border-top text-center">
+    <p class="mb-0 text-dark">ส่วนติดต่อ</p>
+</footer>
 
 </body>
 </html>

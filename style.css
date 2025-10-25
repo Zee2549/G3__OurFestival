@@ -287,4 +287,12 @@ a{
     align-items: center;
     padding: 20px;
 }
+
+.radio{
+    margin-left: 20px;
+}
+
+.reset-btn{
+    margin-left: 10px;
+}
 /* จบcss ของ Registration page */
