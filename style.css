@@ -40,6 +40,7 @@ a{
   padding: 20px;
   border-radius: 8px;
   border: 1px solid #ddd;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
 }
 
 .Directory-recommend-section h2 {
@@ -62,6 +63,7 @@ a{
   padding: 12px;
   margin-bottom: 24px;
   background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
 }
 
 .Directory-category-box h3 {
@@ -83,9 +85,10 @@ a{
   border-radius: 8px;
   padding: 10px;
   background: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
 }
 
-.Directory-shop-img {
+.Directory-shop-img img{
   width: 80px;
   height: 80px;
   border: 1px solid #aaa;
@@ -94,6 +97,16 @@ a{
   line-height: 80px;
   font-size: 13px;
   color: #666;
+}.Directory-shop-img {
+  width: 80px;
+  height: 80px;
+  border: 1px solid #aaa;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 80px;
+  font-size: 13px;
+  color: #666;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
 }
 
 .Directory-shop-info {
@@ -119,11 +132,17 @@ a{
   padding: 6px 16px;
   cursor: pointer;
   transition: 0.3s;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
 }
 
 .Directory-shop-btn:hover {
   background-color: #5aa323;
 }
+.Directory-shop-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
+}
+
 /* จบcss ของ Booth Directory Page*/
 
 /* เริ่มcss ของ Home page */
