@@ -1,45 +1,50 @@
 <!DOCTYPE html>
 <html lang="th">
+
 <head>
-  <meta charset="UTF-8">
-  <title>Feedback</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>Feedback</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-  <nav>
-    <a href="Homepage.html">หน้าแรก</a>
-    <a href="Registration Page.html">ลงทะเบียน</a>
-  </nav>
+    <div class="container border border-secondary rounded mt-3 p-4">
+        <nav class="d-flex justify-content-end gap-3 mb-4">
+            <a href="Homepage.html">หน้าแรก</a>
+            <a href="Registration Page.html">ลงทะเบียน</a>
+        </nav>
+    </div>
+    <section class="feedback-section">
+        <h2>แบบฟอร์มแสดงความคิดเห็น</h2>
 
-  <section class="feedback-section">
-    <h2>แบบฟอร์มแสดงความคิดเห็น</h2>
-    
-    <form class="feedback-form">
-      <label for="name">ชื่อของคุณ:</label>
-      <input type="text" id="name" name="name" placeholder="กรอกชื่อของคุณ" required>
+        <form class="feedback-form">
+            <label for="name">ชื่อของคุณ:</label>
+            <input type="text" id="name" name="name" placeholder="กรอกชื่อของคุณ" required>
 
-      <label for="email">อีเมล:</label>
-      <input type="email" id="email" name="email" placeholder="example@email.com" required>
+            <label for="email">อีเมล:</label>
+            <input type="email" id="email" name="email" placeholder="example@email.com" required>
 
-      <label for="rating">ระดับความพึงพอใจ:</label>
-      <select id="rating" name="rating" required>
-        <option value="">-- เลือกระดับความพึงพอใจ --</option>
-        <option value="5">🌟🌟🌟🌟🌟</option>
-        <option value="4">🌟🌟🌟🌟</option>
-        <option value="3">🌟🌟🌟</option>
-        <option value="2">🌟🌟</option>
-        <option value="1">🌟</option>
-      </select>
+            <label for="rating">ระดับความพึงพอใจ:</label>
+            <select id="rating" name="rating" required>
+                <option value="">-- เลือกระดับความพึงพอใจ --</option>
+                <option value="5">🌟🌟🌟🌟🌟</option>
+                <option value="4">🌟🌟🌟🌟</option>
+                <option value="3">🌟🌟🌟</option>
+                <option value="2">🌟🌟</option>
+                <option value="1">🌟</option>
+            </select>
 
-      <label for="message">ข้อเสนอแนะเพิ่มเติม:</label>
-      <textarea id="message" name="message" rows="5" placeholder="พิมพ์ความคิดเห็นของคุณที่นี่..."></textarea>
+            <label for="message">ข้อเสนอแนะเพิ่มเติม:</label>
+            <textarea id="message" name="message" rows="5" placeholder="พิมพ์ความคิดเห็นของคุณที่นี่..."></textarea>
 
-      <div class="feedback-btn-group">
-        <button type="submit" class="feedback-submit">ส่งความคิดเห็น</button>
-        <button type="reset" class="feedback-reset">ล้างข้อมูล</button>
-      </div>
-    </form>
-  </section>
+            <div class="feedback-btn-group">
+                <button type="submit" class="feedback-submit">ส่งความคิดเห็น</button>
+                <button type="reset" class="feedback-reset">ล้างข้อมูล</button>
+            </div>
+        </form>
+    </section>
 </body>
+
 </html>
