@@ -1,74 +1,104 @@
 <!DOCTYPE html>
-
+<html lang="th">
 <head>
-    <meta charset="UTF-8">
-    <title>Booth Directory Page</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>Booth Directory Page</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <div class="container border border-secondary rounded mt-3 p-4">
-        <nav class="d-flex justify-content-end gap-3 mb-4">
-            <a href="Homepage.html">หน้าแรก</a>
-            <a href="Registration Page.html">ลงทะเบียน</a>
-        </nav>
-    </div>
 
-  <section class="Directory-recommend-section">
-    <h2>Our Festival: <span>แนะนำร้านค้า</span></h2>
-    <p class="Directory-subtitle">คัดสรรร้านค้าทำมืออย่างดีเพื่อคุณ</p>
+<body class="Booth_Directory_Page">
 
-    <div class="Directory-category-box">
-      <h3>หมวดหมู่ : ร้านอาหาร</h3>
+  <header class="container-fluid border-bottom bg-light py-3">
+    <nav class="container d-flex justify-content-end gap-3 flex-wrap">
+      <a href="Homepage.html">หน้าแรก</a>
+      <a href="Registration Page.html">ลงทะเบียน</a>
+    </nav>
+  </header>
 
-      <div class="Directory-shop-list">
-        <div class="Directory-shop-card">
-          <div class="Directory-shop-img"><img src="img\Booth Directory Page\logo1.png" alt=""></div>
-          <div class="Directory-shop-info">
-            <h4>BEARHOUSE</h4>
-            <p> BEARHOUSE ไม่ได้เป็นแค่ร้านชานมธรรมดา แต่เป็นร้านที่เกิดจากการนำ ความรู้ ,Passion ความสุขที่เราสามารถดื่มได้ทุกวัน นั่นเอง</p>
+  
+  <main class="main-content-Directory flex-grow-1 d-flex align-items-start justify-content-center py-4">
+    <section class="Directory-recommend-section">
+      <h2>Our Festival: <span>แนะนำร้านค้า</span></h2>
+      <p class="Directory-subtitle">คัดสรรร้านค้าทำมืออย่างดีเพื่อคุณ</p>
+
+     
+      <div class="Directory-category-box mt-4">
+        <h3>หมวดหมู่ : ร้านอาหาร</h3>
+        <div class="row g-4">
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="Directory-shop-card h-100">
+              <div class="Directory-shop-img">
+                <img src="img/Booth Directory Page/logo1.png" alt="BEARHOUSE">
+              </div>
+              <div class="Directory-shop-info">
+                <h4>BEARHOUSE</h4>
+                <p>BEARHOUSE ไม่ได้เป็นแค่ร้านชานมธรรมดา แต่เป็นร้านที่เกิดจากความรู้ Passion และความสุขที่เราสามารถดื่มได้ทุกวัน</p>
+              </div>
+              <button class="Directory-shop-btn">
+                <a href="Booth2 Page.html">หน้าร้าน</a>
+              </button>
+            </div>
           </div>
-          <button class="Directory-shop-btn"><a href="Booth2 Page.html">หน้าร้าน</a></button>
-        </div>
 
-        <div class="Directory-shop-card">
-          <div class="Directory-shop-img">รอภาพ</div>
-          <div class="Directory-shop-info">
-            <h4>ชื่อร้าน3</h4>
-            <p>แนะนำร้าน</p>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="Directory-shop-card h-100">
+              <div class="Directory-shop-img">รอภาพ</div>
+              <div class="Directory-shop-info">
+                <h4>ชื่อร้าน3</h4>
+                <p>แนะนำร้าน</p>
+              </div>
+              <button class="Directory-shop-btn">
+                <a href="Booth3 Page.html">หน้าร้าน</a>
+              </button>
+            </div>
           </div>
-          <button class="Directory-shop-btn"><a href="Booth3 Page.html">หน้าร้าน</a></button>
-        </div>
-      </div>
-    </div>
-    <div class="Directory-category-box">
-      <h3>หมวดหมู่ : ร้านเครื่องแต่งกาย</h3>
-
-      <div class="Directory-shop-list">
-        <div class="Directory-shop-card">
-          <div class="Directory-shop-img"><img src="img\Booth Directory Page\logo2.png" alt="logo2"></div>
-          <div class="Directory-shop-info">
-            <h4>Be Superb</h4>
-            <p>เสื้อผ้าที่สวมใส่สบาย ใช้งานได้จริง และอยู่กับคุณได้ทุกวัน โดยคำนึงถึง ความรับผิดชอบต่อสิ่งแวดล้อม</p>
-          </div>
-          <button class="Directory-shop-btn"><a href="Booth1 Page.html">หน้าร้าน</a></button>
-        </div>
-
-        <div class="Directory-shop-card">
-          <div class="Directory-shop-img"><img src="img/booth4/stepmuse.png"></div>
-          <div class="Directory-shop-info">
-            <h4>StepMuse</h4>
-            <p>ร้านของเราคือแหล่งรวม รองเท้า ที่คัดสรรมาเพื่อคนที่รักแฟชั่น
-                    และให้ความสำคัญกับความสบายในทุกก้าวเดิน</p>
-          </div>
-          <button class="Directory-shop-btn"><a href="Booth4 Page.html">หน้าร้าน</a></button>
         </div>
       </div>
-    </div>
-  </section>
 
+    
+      <div class="Directory-category-box mt-4">
+        <h3>หมวดหมู่ : ร้านเครื่องแต่งกาย</h3>
+        <div class="row g-4">
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="Directory-shop-card h-100">
+              <div class="Directory-shop-img">
+                <img src="img/Booth Directory Page/logo2.png" alt="Be Superb">
+              </div>
+              <div class="Directory-shop-info">
+                <h4>Be Superb</h4>
+                <p>เสื้อผ้าที่สวมใส่สบาย ใช้งานได้จริง และอยู่กับคุณได้ทุกวัน โดยคำนึงถึงสิ่งแวดล้อม</p>
+              </div>
+              <button class="Directory-shop-btn">
+                <a href="Booth1 Page.html">หน้าร้าน</a>
+              </button>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="Directory-shop-card h-100">
+              <div class="Directory-shop-img">
+                <img src="img/booth4/stepmuse.png" alt="StepMuse">
+              </div>
+              <div class="Directory-shop-info">
+                <h4>StepMuse</h4>
+                <p>ร้านของเราคือแหล่งรวมรองเท้าที่คัดสรรมาเพื่อคนรักแฟชั่นและให้ความสบายในทุกก้าวเดิน</p>
+              </div>
+              <button class="Directory-shop-btn">
+                <a href="Booth4 Page.html">หน้าร้าน</a>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
-    <footer class="container-fluid bg-light py-3 border-top text-center">
-        <p class="mb-0">ส่วนติดต่อ</p>
-    </footer>
+
+
+  <footer class="footer bg-light py-3 border-top text-center mt-auto">
+    <p class="mb-0" style="color: black;">ส่วนติดต่อ</p>
+  </footer>
+
 </body>
+</html>
