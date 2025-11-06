@@ -2,6 +2,7 @@
 .nav-bar {
     background: linear-gradient(90deg, #838383, #454545);
     display: flex;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .nav {
@@ -10,16 +11,6 @@
     align-items: center;
     justify-content: end;
     padding: 12px;
-
-/*
-  gap: 25px;
-  background: linear-gradient(90deg, #838383, #454545);
-  padding: 20px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-  */
 }
 .nav-a {
     background: rgba(255, 255, 255, 0.15);
