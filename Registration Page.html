@@ -12,76 +12,79 @@
 <body>
 
 <div class="nav-bar">
-        <a href="Homepage.html"><img src="img/All%20Page/Our_Festival_logo.png" alt="Our Festival logo" class="our-festival-logo"></a>    <div class="nav">
-        <div><a href="Homepage.html" class="nav-a">หน้าแรก</a></div>
-        <div><a href="Registration Page.html" class="nav-a">ลงทะเบียน</a></div>
+    <a href="Homepage.html"><img src="img/All%20Page/Our_Festival_logo.png" alt="Our Festival logo" class="our-festival-logo"></a>    <div class="nav">
+    <div><a href="Homepage.html" class="nav-a">หน้าแรก</a></div>
+    <div><a href="Registration Page.html" class="nav-a">ลงทะเบียน</a></div>
+</div>
+</div>
+
+<div class="registration-bg">
+    <div class="registration-section">
+        <div>
+            <h2 class="registration-head">ลงทะเบียน</h2>
+        </div>
+        <div class="registration-form">
+            <form action="/action_page.php">
+                <label><b>ชื่อ-นามสกุล:</b></label><br>
+                <input type="text" name="fullname" required placeholder=" Name Surname"><br><br>
+
+                <label><b>อีเมล:</b></label><br>
+                <input type="email" name="email" placeholder=" name@example.com" required><br><br>
+
+                <label><b>เบอร์โทร:</b></label><br>
+                <input type="tel" name="tel" placeholder=" 0XXXXXXXXXX" required maxlength="10" pattern="[0-9]{10}"><br><br>
+
+                <label><b>เพศ:</b></label><br>
+                <input type="radio" name="gender" value="male"> ชาย
+                <input type="radio" name="gender" value="female" class="radio">  หญิง
+                <input type="radio" name="gender" value="others" class="radio">  อื่นๆ<br><br>
+
+                <label><b>ท่านเป็นนักศึกษามหาวิทยาลัยธรรมศาสตร์หรือไม่?</b></label><br>
+                <input type="radio" name="thammasat_student" value="yes"> ใช่
+                <input type="radio" name="thammasat_student" value="no" class="radio">  ไม่ใช่ <br><br>
+
+                <label><b>คณะ:</b>
+                    <p>(หากท่านเป็นนักศึกษามหาวิทยาลัยธรรมศาสตร์)</p>
+                </label><br>
+                <select name="faculty">
+                    <option value="" disabled selected hidden>กรุณาเลือกคณะ...</option>
+                    <option>คณะนิติศาสตร์</option>
+                    <option>คณะพาณิชยศาสตร์และการบัญชี</option>
+                    <option>คณะรัฐศาสตร์</option>
+                    <option>คณะเศรษฐศาสตร์</option>
+                    <option>คณะสังคมสงเคราะห์ศาสตร์</option>
+                    <option>คณะสังคมวิทยาและมานุษยวิทยา</option>
+                    <option>คณะศิลปศาสตร์</option>
+                    <option>คณะวารสารศาสตร์และสื่อสารมวลชน</option>
+                    <option>คณะวิทยาศาสตร์และเทคโนโลยี</option>
+                    <option>คณะวิศวกรรมศาสตร์</option>
+                    <option>คณะสถาปัตยกรรมศาสตร์และการผังเมือง</option>
+                    <option>คณะศิลปกรรมศาสตร์</option>
+                    <option>คณะแพทยศาสตร์</option>
+                    <option>คณะสหเวชศาสตร์</option>
+                    <option>คณะทันตแพทยศาสตร์</option>
+                    <option>คณะพยาบาลศาสตร์</option>
+                    <option>คณะสาธารณสุขศาสตร์</option>
+                    <option>คณะเภสัชศาสตร์</option>
+                    <option>คณะวิทยาการเรียนรู้และศึกษาศาสตร์</option>
+                </select><br><br>
+
+                <input type="checkbox" name="newsletter"> อนุญาตให้ทำการเก็บข้อมูล<br>
+                <input type="checkbox" name="newsletter"> อนุญาตให้ส่งสิทธิพิเศษสำหรับผู้ลงทะเบียนล่วงหน้า<br><br>
+
+                <button type="submit" class="registration-accept-btn">ยืนยัน</button>
+                <button type="reset" class="registration-reset-btn">รีเซ็ต</button>
+
+            </form>
+        </div>
     </div>
 </div>
 
 
-<div class="container border border-secondary rounded mt-3 p-4">
-    <div>
-        <h2 class="registration-head">ลงทะเบียน</h2>
-    </div>
-
-    <div class="registration-form">
-    <form action="/action_page.php">
-        <label>ชื่อ-นามสกุล:</label><br>
-        <input type="text" name="fullname" required><br><br>
-
-        <label>อีเมล:</label><br>
-        <input type="email" name="email" placeholder=" name@example.com"required><br><br>
-
-        <label>เบอร์โทร:</label><br>
-        <input type="tel" name="tel" required maxlength="10" pattern="[0-9]{10}"><br><br>
-
-        <label>เพศ:</label><br>
-        <input type="radio" name="gender" value="male"> ชาย
-        <input type="radio" name="gender" value="female" class="radio">  หญิง
-        <input type="radio" name="gender" value="others" class="radio">  อื่นๆ<br><br>
-
-        <label>ท่านเป็นนักศึกษามหาวิทยาลัยธรรมศาสตร์หรือไม่?</label><br>
-        <input type="radio" name="thammasat_student" value="yes"> ใช่
-        <input type="radio" name="thammasat_student" value="no" class="radio">  ไม่ใช่ <br><br>
-
-        <label>คณะ:
-            <p>(หากท่านเป็นนักศึกษามหาวิทยาลัยธรรมศาสตร์)</p>
-        </label><br>
-        <select name="faculty">
-            <option value="" disabled selected hidden>กรุณาเลือกคณะ...</option>
-            <option>คณะนิติศาสตร์</option>
-            <option>คณะพาณิชยศาสตร์และการบัญชี</option>
-            <option>คณะรัฐศาสตร์</option>
-            <option>คณะเศรษฐศาสตร์</option>
-            <option>คณะสังคมสงเคราะห์ศาสตร์</option>
-            <option>คณะสังคมวิทยาและมานุษยวิทยา</option>
-            <option>คณะศิลปศาสตร์</option>
-            <option>คณะวารสารศาสตร์และสื่อสารมวลชน</option>
-            <option>คณะวิทยาศาสตร์และเทคโนโลยี</option>
-            <option>คณะวิศวกรรมศาสตร์</option>
-            <option>คณะสถาปัตยกรรมศาสตร์และการผังเมือง</option>
-            <option>คณะศิลปกรรมศาสตร์</option>
-            <option>คณะแพทยศาสตร์</option>
-            <option>คณะสหเวชศาสตร์</option>
-            <option>คณะทันตแพทยศาสตร์</option>
-            <option>คณะพยาบาลศาสตร์</option>
-            <option>คณะสาธารณสุขศาสตร์</option>
-            <option>คณะเภสัชศาสตร์</option>
-            <option>คณะวิทยาการเรียนรู้และศึกษาศาสตร์</option>
-        </select><br><br>
-
-        <input type="checkbox" name="newsletter"> อนุญาตให้ทำการเก็บข้อมูล<br>
-        <input type="checkbox" name="newsletter"> อนุญาตให้ส่งสิทธิพิเศษสำหรับผู้ลงทะเบียนล่วงหน้า<br><br>
-
-        <button type="submit">ยืนยัน</button>
-        <button type="reset" class="reset-btn">รีเซ็ต</button>
-
-    </form>
-    </div>
-</div>
 <footer class="container-fluid bg-light py-3 border-top text-center">
     <p class="mb-0 text-dark">ส่วนติดต่อ</p>
 </footer>
 
 </body>
 </html>
+

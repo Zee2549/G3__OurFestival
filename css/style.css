@@ -361,11 +361,28 @@ body .Booth_Directory_Page {
 /* จบcss ของ Booth4 page */
 
 /* เริ่มcss ของ Registration page*/
+.registration-bg{
+    background-image: url('/img/Registration-page/registration-page-background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px;
+
+}
 
 .registration-head {
     text-align: center;
     padding-top: 20px;
     padding-bottom: 10px;
+}
+
+.registration-section {
+    background: whitesmoke;
+    margin: auto;
+    padding: 30px;
+    border-radius: 12px;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    max-width: 700px;
 }
 
 .registration-form{
@@ -379,8 +396,35 @@ body .Booth_Directory_Page {
     margin-left: 20px;
 }
 
-.reset-btn{
-    margin-left: 10px;
+.registration-accept-btn{
+    background: mediumseagreen;
+    margin-right: 10px;
+    padding: 12px 35px;
+    border-radius: 8px;
+    transition: 0.5s;
+    color: black;
+    text-decoration: none;
+}
+
+.registration-accept-btn:hover{
+    background: green;
+    color: #fff;
+}
+
+.registration-reset-btn{
+    background: darkgrey;
+    margin-right: 10px;
+    padding: 12px 35px;
+    border-radius: 8px;
+    transition: 0.5s;
+    color: black;
+    text-decoration: none;
+}
+
+
+.registration-reset-btn:hover{
+    background: lightgrey;
+    color: #fff;
 }
 /* จบcss ของ Registration page */
 /* เริ่ม css ของ Feedback page */
