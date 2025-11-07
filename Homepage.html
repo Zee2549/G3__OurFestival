@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,14 +9,17 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="icon" type="img/All%20Page/x-png" href="img/All%20Page/Our_Festival_logo.png">
 </head>
+
 <body>
 
-<div class="nav-bar">
-        <a href="Homepage.html"><img src="img/All%20Page/Our_Festival_logo.png" alt="Our Festival logo" class="our-festival-logo"></a>    <div class="nav">
-        <div><a href="Homepage.html" class="nav-a">หน้าแรก</a></div>
-        <div><a href="Registration Page.html" class="nav-a">ลงทะเบียน</a></div>
+    <div class="nav-bar">
+        <a href="Homepage.html"><img src="img/All%20Page/Our_Festival_logo.png" alt="Our Festival logo"
+                class="our-festival-logo"></a>
+        <div class="nav">
+            <div><a href="Homepage.html" class="nav-a">หน้าแรก</a></div>
+            <div><a href="Registration Page.html" class="nav-a">ลงทะเบียน</a></div>
+        </div>
     </div>
-</div>
 
     <section class="story-homepage-section">
         <h2>Green Village Fair: กินดี ใส่สวย ใส่ใจโลก <br></h2>
@@ -29,33 +33,83 @@
         <div class="link-another-page-in-homepage">
             <div class="sidebar-homepage">
                 <br>
-                    <a href="Booth Directory Page.html" class="link-homepage">Booth Directory Page</a> <br>
-                    <a href="Leave Your Feedback Page.html" class="link-homepage">Feedback</a> <br>
-                    <a href="Registration Page.html" class="link-homepage">Registration</a> <br>
+                <a href="Booth Directory Page.html" class="link-homepage">Booth Directory Page</a> <br>
+                <a href="Leave Your Feedback Page.html" class="link-homepage">Feedback</a> <br>
+                <a href="Registration Page.html" class="link-homepage">Registration</a> <br>
             </div>
             <div class="maincontent-homepage">
-                    <h1> รอภาพ</h1>
+                <div class="in_main">
+                    <div class="img_in_festival mt-3 mb-4">
+                        <div class="slide slide1"></div>
+                        <div class="slide slide2"></div>
+                        <div class="slide slide3"></div>
+                        <div class="slide slide4"></div>
+                        <div class="slide silde5"></div>
+                    </div>
+                    <style>
+                        .in_main {
+                            position: relative;
+                            width: 80%;
+                            margin: 20px auto;
+                            padding: 20px;
+                            padding-bottom: 40%;
+                            overflow: hidden;
+                            border-radius: 15px;
+                            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);;
+                        }
+
+                        .slide {
+                            position: absolute;
+                            z-index: 0;
+                            inset: 0;
+                            background-size: cover;
+                            background-position: center top;
+                            opacity: 0;
+                            animation: fade 20s infinite;
+                        }
+
+                        .slide1 {background-image: url("img/Homepage/in_festival.jpg");animation-delay: 0s;}
+                        .slide2 {background-image: url("img/Homepage/shop_1_in_festival.jpg");animation-delay: 5s;}
+                        .slide3 {background-image: url("img/Homepage/shop_2_in_festival.jpg");animation-delay: 10s;}
+                        .slide4 {background-image: url("img/Homepage/shop_3_in_festival.jpg");animation-delay: 15s;}
+                        .slide5 {background-image: url("img/Homepage/shop_4_in_festival.jpg");animation-delay: 20s;}
+                        @keyframes fade {
+                            0%   {opacity: 0;}
+                            5%   {opacity: 1;}
+                            30%  {opacity: 1;}
+                            35%  {opacity: 0;}
+                            100% {opacity: 0;}
+                        }    
+                        @media (max-width: 600px){
+                            .slide{
+                                width: 95%;
+                                adding-bottom: 60%;
+                            }
+                        }
+                    </style>
+                </div>
             </div>
         </div>
     </main>
     <div class="member mt-4 mb-4">
         <div class="name-member mt-3">
             <h2>สมาชิก</h2>
-                <ol class="member-list">
-                    <li>Cheewathep parkpean 6809617068 Project manager / UX/UI / Developers</li>
-                    <li>Ariyawe krittayabunlue 6809617506 Team lead / Developers</li>
-                    <li>Penrasamee Yamtiang 6809530121 Developers</li>
-                    <li>Sitch ninsodsai 6809617464 Developers</li>
-                    <li>Nasapon Tinchartarak 6809617092 QA Team/Tester / Developer</li>
-                    <li>Saranpatthawi Buachum 6809617456 QA Team/Testers / Developers</li>
-                    <li>Ratanaphong chartpueak 6809617324 Developers</li>
-                    <li>Phanawat Khongkhet 6809617282 QA / Tester / Developer </li>
-                    <li>Thanapat pomyai 6809620054 Developer</li>
-                </ol>
+            <ol class="member-list">
+                <li>Cheewathep parkpean 6809617068 Project manager / UX/UI / Developers</li>
+                <li>Ariyawe krittayabunlue 6809617506 Team lead / Developers</li>
+                <li>Penrasamee Yamtiang 6809530121 Developers</li>
+                <li>Sitch ninsodsai 6809617464 Developers</li>
+                <li>Nasapon Tinchartarak 6809617092 QA Team/Tester / Developer</li>
+                <li>Saranpatthawi Buachum 6809617456 QA Team/Testers / Developers</li>
+                <li>Ratanaphong chartpueak 6809617324 Developers</li>
+                <li>Phanawat Khongkhet 6809617282 QA / Tester / Developer </li>
+                <li>Thanapat pomyai 6809620054 Developer</li>
+            </ol>
         </div>
     </div>
     <footer class="container-fluid bg-light py-3 border-top text-center">
         <p class="mb-0" style="color: black;">ส่วนติดต่อ</p>
     </footer>
 </body>
+
 </html>
