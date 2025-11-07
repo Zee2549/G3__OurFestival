@@ -232,7 +232,7 @@ body .Booth_Directory_Page {
 }
 .maincontent-homepage {
   border: 1px solid #ddd;
-  border-radius: 8px;
+  border-radius: 8px
 }
 .link-homepage {
   margin-left: 4%;
@@ -256,6 +256,7 @@ body .Booth_Directory_Page {
 .member {
   padding-left: 1.5%;
   padding-right: 1.5%;
+  padding-top: 6%;
 }
 .name-member {
   border: 1px solid #ddd;
@@ -271,6 +272,7 @@ body .Booth_Directory_Page {
   margin-right: auto;
   text-align: left;
 }
+
 
 /* จบcss ของ Home page */
 
