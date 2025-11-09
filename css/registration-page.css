@@ -1,6 +1,6 @@
 /* เริ่มcss ของ Registration page*/
 .registration-bg{
-    background-image: url('/img/Registration-page/registration-page-background.jpg');
+    background-image: url('../img/Registration-page/registration-page-background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     padding: 30px;
