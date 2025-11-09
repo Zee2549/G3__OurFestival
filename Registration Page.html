@@ -27,13 +27,13 @@
         <div class="registration-form">
             <form action="/action_page.php">
                 <label><b>ชื่อ-นามสกุล:</b></label><br>
-                <input type="text" name="fullname" required placeholder=" Name Surname"><br><br>
+                <input type="text" name="fullname" required placeholder=" Name Surname" class="input-box"><br><br>
 
                 <label><b>อีเมล:</b></label><br>
-                <input type="email" name="email" placeholder=" name@example.com" required><br><br>
+                <input type="email" name="email" placeholder=" name@example.com" class="input-box" required><br><br>
 
                 <label><b>เบอร์โทร:</b></label><br>
-                <input type="tel" name="tel" placeholder=" 0XXXXXXXXXX" required maxlength="10" pattern="[0-9]{10}"><br><br>
+                <input type="tel" name="tel" placeholder=" 0XXXXXXXXXX" class="input-box" required maxlength="10" pattern="[0-9]{10}"><br><br>
 
                 <label><b>เพศ:</b></label><br>
                 <input type="radio" name="gender" value="male"> ชาย
@@ -47,7 +47,7 @@
                 <label><b>คณะ:</b>
                     <p>(หากท่านเป็นนักศึกษามหาวิทยาลัยธรรมศาสตร์)</p>
                 </label><br>
-                <select name="faculty">
+                <select name="faculty" class="input-box">
                     <option value="" disabled selected hidden>กรุณาเลือกคณะ...</option>
                     <option>คณะนิติศาสตร์</option>
                     <option>คณะพาณิชยศาสตร์และการบัญชี</option>
@@ -73,8 +73,10 @@
                 <input type="checkbox" name="newsletter"> อนุญาตให้ทำการเก็บข้อมูล<br>
                 <input type="checkbox" name="newsletter"> อนุญาตให้ส่งสิทธิพิเศษสำหรับผู้ลงทะเบียนล่วงหน้า<br><br>
 
+                <div style="display: flex;">
                 <button type="submit" class="registration-accept-btn">ยืนยัน</button>
                 <button type="reset" class="registration-reset-btn">รีเซ็ต</button>
+                </div>
 
             </form>
         </div>
