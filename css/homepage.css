@@ -70,5 +70,8 @@
     text-align: left;
 }
 
+body {
+    font-family: 'Kanit', sans-serif !important;
+}
 
 /* จบcss ของ Home page */

@@ -1,6 +1,6 @@
 /*เริ่ม css ของ Booth Directory Page*/
 
-body .Booth_Directory_Page {
+.Booth_Directory_Page {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
