@@ -2,13 +2,13 @@
 .nav-bar {
     background: linear-gradient(90deg, #838383, #454545);
     display: flex;
+    align-items: stretch;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .nav {
     flex-grow: 1;
     display: flex;
-
     flex-direction: row;
     align-items: center;
     justify-content: end;
@@ -29,6 +29,85 @@
     background: mediumseagreen;
     color: #fff;
 }
+
+
+.hamburger {
+    display: none;
+}
+.close-btn {
+    display: none;
+}
+
+@media (max-width: 768px) {
+
+    .nav-bar {
+        justify-content: end;
+        align-items: center;
+    }
+
+    .nav {
+        display: none;
+        top: 0;
+        right: 0;
+        flex-direction: column;
+        align-items: end;
+        position: fixed;
+        height: 100vh;
+        width: 70%;
+        justify-content: flex-start;
+        background-color: darkgray;
+        box-shadow: -5px 0 10px rgba(0,0,0,0.1);
+        z-index: 100;
+        padding-right: 20px;
+    }
+
+    .hamburger-container {
+        flex-grow: 1;
+        padding-left: 110px;
+    }
+
+    .hamburger {
+        display: block;
+        font-size: 27px;
+        background: none;
+        border: none;
+        cursor: pointer;
+        padding: 20px;
+        height: 100%;
+    }
+
+    .nav.active {
+        display: flex;
+    }
+
+    .nav-a {
+        background: green;
+        width: 100%;
+        display: block;
+        border-bottom: 1px solid #eee;
+        margin-top: 10px;
+    }
+
+    .close-btn {
+        display: block;
+        top: 15px;
+        right: 15px;
+        font-size: 30px;
+        background: none;
+        border: none;
+        color: #333;
+        cursor: pointer;
+        z-index: 1001;
+        padding: 5px;
+    }
+
+    .nav.active .close-btn {
+        display: block;
+    }
+}
+
+
+
 
 .our-festival-logo {
     width: 50%;
@@ -75,14 +154,3 @@ body {
     font-family: 'Kanit', 'Impact', sans-serif;
 }
 /* จบcss ที่คิดว่าใช้ร่วมกันทุกหน้า**/
-
-
-
-
-
-
-
-
-
-
-
