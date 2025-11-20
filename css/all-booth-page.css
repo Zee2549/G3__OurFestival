@@ -61,4 +61,31 @@
     width: 70px;
 }
 
+@media screen and (max-width: 767px) {
+    
+    .Booth-container-section {
+        margin: 10px; 
+        padding: 10px; 
+    }
+    .Booth-container-upper-part {
+        gap: 10px; 
+    }
+    .Booth-owner-img {
+        width: 80px; 
+        height: 80px; 
+    }
+    .Booth-container-section p, 
+    .Booth-container-section h3,
+    .Booth-item-card {
+        font-size: 0.9em; 
+    }
+    .Booth-item-card {
+        padding: 8px; 
+        margin: 5px 0.5%;
+    }
+    .Booth-container-contact {
+        margin: 10px auto; 
+    }
+}
+
 /* จบcss ของ All Booth page */
