@@ -63,7 +63,7 @@
 
     .hamburger-container {
         flex-grow: 1;
-        padding-left: 110px;
+        justify-items: end;
     }
 
     .hamburger {
