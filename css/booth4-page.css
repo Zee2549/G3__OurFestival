@@ -2,3 +2,18 @@
     width: 150px;
     height: 150px;
 }
+.Booth4-fonts-topic {
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+}
+.Booth4-style-nameproduct {
+    font-size: 17px;
+    font-weight: bold;
+    border-style: outset;
+}
+.Booth4-style-detailproduct {
+    font-size: 16px;
+    border-style: outset;
+    margin: 0px 10px;
+}
