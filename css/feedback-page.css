@@ -71,4 +71,25 @@
 .feedback-reset:hover {
     background-color: #666;
 }
+@media (max-width: 768px) {
+    .feedback-section {
+        margin: 20px 15px;
+        padding: 20px;
+        box-shadow: none;
+        border: 1px solid #eee;
+    }
+
+    .feedback-btn-group {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .feedback-submit, .feedback-reset {
+        width: 100%;
+    }
+
+    .feedback-section h2 {
+        font-size: 24px;
+    }
+}
 /* จบ css ของ Feedback page */
