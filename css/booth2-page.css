@@ -1,11 +1,4 @@
-/* เริ่มcss ของ Booth2 page*/
-.Product-detail{
-    text-align:center;
-    font-size: 13px ;
-    max-width: 450px; 
-    margin-left: auto;
-    margin-right: auto; 
-    margin-top: 8px;
-    margin-bottom: 8px;
+.Booth2-size-img {
+    width: 150px;
+    height: 150px;
 }
-/* จบcss ของ Booth2 page */
