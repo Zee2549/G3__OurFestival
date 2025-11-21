@@ -3,4 +3,19 @@
     width: 300px;
     height: 300px;
 }
+.Booth1-fonts-topic {
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+}
+.Booth1-style-nameproduct {
+    font-size: 17px;
+    font-weight: bold;
+    border-style: outset;
+}
+.Booth1-style-detailproduct {
+    font-size: 16px;
+    border-style: outset;
+    margin: 0px 10px;
+}
 /* จบcss ของ Booth1 page */
