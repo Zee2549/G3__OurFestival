@@ -28,7 +28,7 @@
     <div class="nav" id="main-nav-links">
         <div><button class="close-btn" id="close-menu-button">&#x2715;</button></div>
         <div><a href="Homepage.html" class="nav-a">หน้าแรก</a>
-            <a href="Registration Page.html" class="nav-a">ลงทะเบียน</a></div>
+            <a href="Registration%20Page.php" class="nav-a">ลงทะเบียน</a></div>
     </div>
 </div>
 
@@ -38,7 +38,7 @@
             <h2 class="registration-head">ลงทะเบียน</h2>
         </div>
         <div class="registration-form">
-            <form action="/action_page.php">
+            <form action="Registration%20Page.php" method="post">
                 <label><b>ชื่อ-นามสกุล:</b></label><br>
                 <input type="text" name="fullname" required placeholder=" Name Surname" class="input-box"><br><br>
 
@@ -86,7 +86,7 @@
                 <label><input type="checkbox" name="newsletter"> อนุญาต</label>ให้ทำการเก็บข้อมูล<br>
                 <label><input type="checkbox" name="newsletter"> อนุญาต</label>ให้ส่งสิทธิพิเศษสำหรับผู้ลงทะเบียนล่วงหน้า<br><br>
 
-                <div style="display: flex;">
+                <div class="registration-btn-container">
                     <button type="submit" class="registration-accept-btn">ยืนยัน</button>
                     <button type="reset" class="registration-reset-btn">รีเซ็ต</button>
                 </div>

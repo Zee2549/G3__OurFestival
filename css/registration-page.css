@@ -72,4 +72,8 @@
     background: darkgrey;
     color: #fff;
 }
+
+.registration-btn-container{
+    display: flex;
+}
 /* จบcss ของ Registration page */

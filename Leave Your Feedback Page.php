@@ -74,7 +74,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <div class="nav" id="main-nav-links">
         <div><button class="close-btn" id="close-menu-button">&#x2715;</button></div>
         <div><a href="Homepage.html" class="nav-a">หน้าแรก</a>
-            <a href="Registration Page.html" class="nav-a">ลงทะเบียน</a></div>
+            <a href="Registration%20Page.php" class="nav-a">ลงทะเบียน</a></div>
     </div>
 </div>
 
