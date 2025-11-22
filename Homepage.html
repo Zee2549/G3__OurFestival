@@ -3,102 +3,32 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Homepage</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/all-page.css">
     <link rel="stylesheet" href="css/homepage.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="icon" type="img/All%20Page/x-png" href="img/All%20Page/Our_Festival_logo.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
-
 <body>
 
-<div class="nav-bar">
-    <a href="Homepage.html"><img src="img/All%20Page/Our_Festival_logo.png" alt="Our Festival logo" class="our-festival-logo"></a>
+    <div class="nav-bar">
+        <a href="Homepage.html"><img src="img/All%20Page/Our_Festival_logo.png" alt="Our Festival logo" class="our-festival-logo"></a>
 
-    <div class="hamburger-container">
-        <button class="hamburger" id="hamburger-button">&#9776;</button>
-    </div>
-
-    <div class="nav" id="main-nav-links">
-        <div><button class="close-btn" id="close-menu-button">&#x2715;</button></div>
-        <div><a href="Homepage.html" class="nav-a">หน้าแรก</a>
-            <a href="Registration Page.html" class="nav-a">ลงทะเบียน</a></div>
-    </div>
-</div>
-
-    <section class="story-homepage-section">
-        <h2>Green Village Fair: กินดี ใส่สวย ใส่ใจโลก <br></h2>
-        <p class="sub-story-homepage">
-            งานที่รวมความสุขของการกินดี ใส่สวย และใส่ใจโลก ไว้ในที่เดียว <br>
-            เป็นพื้นที่ให้ทุกคนได้สัมผัสความสวยงามและความยั่งยืนในชีวิตประจำวัน <br>
-            พร้อมสร้างแรงบันดาลใจให้คนรุ่นใหม่ใส่ใจโลกไปด้วยกัน <br>
-        </p>
-    </section>
-    <main>
-        <div class="link-another-page-in-homepage">
-            <div class="sidebar-homepage">
-                <br>
-                <a href="Booth Directory Page.html" class="link-homepage">Booth Directory Page</a> <br>
-                <a href="Leave your Feedback Page.php" class="link-homepage">Feedback</a> <br>
-                <a href="Registration Page.html" class="link-homepage">Registration</a> <br>
-            </div>
-            <div class="maincontent-homepage">
-                <div class="in_main">
-                    <div class="img_in_festival mt-3 mb-4">
-                        <div class="slide slide1"></div>
-                        <div class="slide slide2"></div>
-                        <div class="slide slide3"></div>
-                        <div class="slide slide4"></div>
-                        <div class="slide silde5"></div>
-                    </div>
-                    <style>
-                        .in_main {
-                            position: relative;
-                            width: 80%;
-                            margin: 20px auto;
-                            padding: 20px;
-                            padding-bottom: 40%;
-                            overflow: hidden;
-                            border-radius: 15px;
-                            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);;
-                        }
-
-                        .slide {
-                            position: absolute;
-                            z-index: 0;
-                            inset: 0;
-                            background-size: cover;
-                            background-position: center top;
-                            opacity: 0;
-                            animation: fade 20s infinite;
-                        }
-
-                        .slide1 {background-image: url("img/Homepage/in_festival.jpg");animation-delay: 0s;}
-                        .slide2 {background-image: url("img/Homepage/shop_1_in_festival.jpg");animation-delay: 5s;}
-                        .slide3 {background-image: url("img/Homepage/shop_2_in_festival.jpg");animation-delay: 10s;}
-                        .slide4 {background-image: url("img/Homepage/shop_3_in_festival.jpg");animation-delay: 15s;}
-                        .slide5 {background-image: url("img/Homepage/shop_4_in_festival.jpg");animation-delay: 20s;}
-                        @keyframes fade {
-                            0%   {opacity: 0;}
-                            5%   {opacity: 1;}
-                            30%  {opacity: 1;}
-                            35%  {opacity: 0;}
-                            100% {opacity: 0;}
-                        }
-                        @media (max-width: 600px){
-                            .slide{
-                                width: 95%;
-                                padding-bottom: 60%;
-                            }
-                        }
-                    </style>
-                </div>
-            </div>
+        <div class="hamburger-container">
+            <button class="hamburger" id="hamburger-button">&#9776;</button>
         </div>
-    </main>
+
+        <div class="nav" id="main-nav-links">
+            <div><button class="close-btn" id="close-menu-button">&#x2715;</button></div>
+            <div><a href="Homepage.html" class="nav-a">หน้าแรก</a>
+                <a href="Registration Page.html" class="nav-a">ลงทะเบียน</a></div>
+        </div>
+    </div>
+
     <div class="member mt-4 mb-4">
         <div class="name-member mt-3">
             <h2>สมาชิก</h2>
@@ -121,6 +51,7 @@
     </footer>
 
 <script src="java-script/all-page.js"></script>
-</body>
 
+</body>
 </html>
+
