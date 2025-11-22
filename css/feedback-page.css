@@ -1,11 +1,11 @@
-/* เริ่ม css ของ Feedback page */
+/* --- สไตล์หลักของหน้า Feedback --- */
 .feedback-section {
     background: #fff;
     margin: 40px auto;
     padding: 30px;
     border-radius: 12px;
     border: 1px solid #ddd;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
     max-width: 700px;
 }
 
@@ -33,14 +33,23 @@
     border: 1px solid #ccc;
     border-radius: 6px;
     font-size: 15px;
+    width: 100%;
+    box-sizing: border-box;
     transition: border-color 0.3s;
+}
+
+.feedback-form input:focus,
+.feedback-form select:focus,
+.feedback-form textarea:focus {
+    outline: none;
+    border-color: #e37b47;
 }
 
 .feedback-btn-group {
     display: flex;
     justify-content: center;
     gap: 15px;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 .feedback-submit {
@@ -48,48 +57,59 @@
     color: #000;
     border: none;
     border-radius: 20px;
-    padding: 8px 20px;
+    padding: 10px 30px;
     cursor: pointer;
     transition: 0.3s;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
 }
 
 .feedback-submit:hover {
-    background-color: #5aa323;
+    background-color: #d36a36;
+    transform: translateY(-2px);
 }
 
-.feedback-reset {
-    background-color: #999;
-    color: #fff;
-    border: none;
-    border-radius: 20px;
-    padding: 8px 20px;
-    cursor: pointer;
-    transition: 0.3s;
+.success-box {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+    padding: 20px;
+    margin-top: 25px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 16px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
 }
 
-.feedback-reset:hover {
-    background-color: #666;
+.success-box h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-weight: bold;
 }
+
+.error-box {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+    padding: 15px;
+    margin-top: 25px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 16px;
+}
+
+
 @media (max-width: 768px) {
     .feedback-section {
         margin: 20px 15px;
         padding: 20px;
-        box-shadow: none;
-        border: 1px solid #eee;
     }
 
     .feedback-btn-group {
         flex-direction: column;
-        gap: 10px;
     }
 
-    .feedback-submit, .feedback-reset {
+    .feedback-submit {
         width: 100%;
     }
-
-    .feedback-section h2 {
-        font-size: 24px;
-    }
 }
-/* จบ css ของ Feedback page */
