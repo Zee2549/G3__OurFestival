@@ -18,15 +18,12 @@
 
 
 .Directory-recommend-section {
-    background: #fff;
-    margin: 40px auto;
-    padding: 40px 60px;
+    background: #f9f9f9;
+    margin: 0px auto;
+    padding: 30px 30px;
     justify-content: center;
-    border-radius: 12px;
-    border: 1px solid #ddd;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
 
-    width: 98%;
+    width: 100%;
     max-width: 1800px;
 }
 
