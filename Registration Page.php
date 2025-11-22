@@ -1,3 +1,6 @@
+<?php
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -19,13 +22,13 @@
     <a href="Homepage.html"><img src="img/All%20Page/Our_Festival_logo.png" alt="Our Festival logo" class="our-festival-logo"></a>
 
     <div class="hamburger-container">
-    <button class="hamburger" id="hamburger-button">&#9776;</button>
+        <button class="hamburger" id="hamburger-button">&#9776;</button>
     </div>
 
     <div class="nav" id="main-nav-links">
         <div><button class="close-btn" id="close-menu-button">&#x2715;</button></div>
         <div><a href="Homepage.html" class="nav-a">หน้าแรก</a>
-        <a href="Registration Page.html" class="nav-a">ลงทะเบียน</a></div>
+            <a href="Registration Page.html" class="nav-a">ลงทะเบียน</a></div>
     </div>
 </div>
 
@@ -84,8 +87,8 @@
                 <label><input type="checkbox" name="newsletter"> อนุญาต</label>ให้ส่งสิทธิพิเศษสำหรับผู้ลงทะเบียนล่วงหน้า<br><br>
 
                 <div style="display: flex;">
-                <button type="submit" class="registration-accept-btn">ยืนยัน</button>
-                <button type="reset" class="registration-reset-btn">รีเซ็ต</button>
+                    <button type="submit" class="registration-accept-btn">ยืนยัน</button>
+                    <button type="reset" class="registration-reset-btn">รีเซ็ต</button>
                 </div>
 
             </form>
@@ -102,4 +105,5 @@
 
 </body>
 </html>
+
 
