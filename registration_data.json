@@ -108,5 +108,16 @@
         "faculty": "คณะวิทยาการเรียนรู้และศึกษาศาสตร์",
         "consent_data": "Yes",
         "consent_news": "Yes"
+    },
+    {
+        "timestamp": "2025-11-23 17:13:19",
+        "fullname": "pk",
+        "email": "pk@gmail.com",
+        "tel": "0123445566",
+        "gender": "male",
+        "is_student": "yes",
+        "faculty": "คณะวิทยาการเรียนรู้และศึกษาศาสตร์",
+        "consent_data": "Yes",
+        "consent_news": "Yes"
     }
 ]
