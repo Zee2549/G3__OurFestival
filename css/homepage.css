@@ -191,4 +191,131 @@
 .slide-img.active {
     opacity: 1;
 }
+
+.container {
+    max-width: 2500px; 
+    width: 100%;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    color: #4a2c89;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.header p {
+    color: #666;
+    font-size: 1rem;
+}
+
+.team-list {
+    display: flex;
+    flex-direction: column;
+    gap: 5px; 
+}
+
+.card {
+    background: white;
+    border-radius: 15px;
+    padding: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    
+    display: flex; 
+    flex-direction: row; 
+    align-items: center; 
+    text-align: left; 
+}
+
+.card:hover {
+    transform: translateX(5px); 
+    box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+}
+
+.avatar {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #9b7ad6, #6842b5);
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 10px rgba(104, 66, 181, 0.3);
+    
+    margin-right: 25px; 
+    margin-bottom: 0; 
+    flex-shrink: 0; 
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    flex-grow: 1;
+}
+
+.student-id {
+    color: #999;
+    font-size: 0.85rem;
+    margin-bottom: 2px;
+}
+
+.name {
+    color: #333;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 8px; }
+
+.badge {
+    padding: 6px 15px;
+    border-radius: 6px; 
+    color: white;
+    font-size: 0.8rem;
+    font-weight: 500;
+    display: inline-block;
+}
+
+.badge.dev { background-color: #6e7ddb; }
+.badge.pm { background: linear-gradient(135deg, #ff9966, #ff5e62); }
+.badge.lead { background-color: #ff9f43; }
+.badge.qa { background-color: #2ecc71; }
+
+@media (max-width: 480px) {
+    .card {
+        flex-direction: column;
+        text-align: center;
+    }
+    .avatar {
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+    .info {
+        align-items: center;
+    }
+}
+.social-icons {
+    display: flex;
+    gap: 15px; /* ระยะห่างระหว่างไอคอน */
+    justify-content: flex-end; /* จัดไอคอนชิดขวา */
+}
+
+.social-icons a {
+    color: black; /* สีไอคอนเป็นสีดำ (ตามรูป) */
+    font-size: 30px; /* ขนาดไอคอน */
+    transition: transform 0.2s ease, color 0.2s ease;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    transform: scale(1.1); /* ขยายเมื่อเอาเมาส์ชี้ */
+    color: #4a2c89; /* เปลี่ยนสีเมื่อชี้ */
+}
 /* จบcss ของ Home page */
