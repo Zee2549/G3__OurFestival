@@ -49,7 +49,7 @@
 .visit-container{
     display: flex;
     flex-direction: row;
-    padding: 40px;
+    padding: 25px;
     background-color: #f0ecec;
 }
 
@@ -60,7 +60,6 @@
     align-items: center;
     background-color: white;
     font-size: 40px;
-    padding: 15px;
 }
 
 .visit-text-align{
@@ -68,7 +67,7 @@
 }
 
 .slideshow-container {
-    width: 600px;
+    width: 750px;
     height: 400px;
     position: relative;
     overflow: hidden;
@@ -107,7 +106,7 @@
     }
 
     .visit-text{
-        font-size: 12px;
+        font-size: 11px;
     }
 
     .visit-text-align{

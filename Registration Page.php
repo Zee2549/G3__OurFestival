@@ -91,7 +91,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <div class="registration-bg">
         <div class="registration-section">
             <div>
-                <h2 class="registration-head">ลงทะเบียน</h2>
+                <h1 class="registration-head">ลงทะเบียน</h1>
             </div>
             <div class="registration-form">
                 <form action="" method="post">
@@ -147,6 +147,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                         <button type="button" class="registration-reset-btn" onclick="window.location.href='Registration Page.php'">รีเซ็ต</button>
                     </div>
 
+                    <div class="link-to-regis-summary">
+                        <a href="Registration%20Summary.php" class="link-to-regis-summary-text">ดูข้อมูลผู้เข้าร่วมงานทั้งหมด</a>
+                    </div>
                 </form>
             </div>
 

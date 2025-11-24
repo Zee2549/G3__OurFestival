@@ -98,6 +98,23 @@
     font-size: 16px;
 }
 
+.link-to-feedback-summary{
+    text-align: center;
+    padding-top: 10px;
+}
+
+.link-to-feedback-summary-text{
+    color: grey;
+    text-decoration: underline;
+}
+
+.feedback-bg{
+    background-image: url('../img/Registration-page/registration-page-background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 25px;
+}
+
 
 @media (max-width: 768px) {
     .feedback-section {

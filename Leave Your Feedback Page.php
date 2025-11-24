@@ -71,7 +71,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <a href="Registration Page.php" class="nav-a">ลงทะเบียน</a></div>
     </div>
 </div>
-
+    <div class="feedback-bg">
     <section class="feedback-section">
         <h2>แบบฟอร์มแสดงความคิดเห็น</h2>
 
@@ -98,12 +98,17 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <div class="feedback-btn-group">
                 <button type="submit" class="feedback-submit">ส่งความคิดเห็น</button>
             </div>
+
+            <div class="link-to-feedback-summary">
+                <a href="Feedback%20Summary.php" class="link-to-feedback-summary-text">ดูความคิดเห็นทั้งหมด</a>
+            </div>
         </form>
 
         
         <?php echo $resultMessage; ?>
 
     </section>
+    </div>
 
 <script src="java-script/all-page.js"></script>
 </body>
