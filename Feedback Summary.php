@@ -1,11 +1,18 @@
 <?php
-?>
+date_default_timezone_set('Asia/Bangkok');
+$dataFile = 'feedback_data.json';
 
-<?php
+$records = [];
+if (file_exists($dataFile)) {
+    $jsonContent = file_get_contents($dataFile);
+    $records = json_decode($jsonContent, true) ?? [];
+}
+
+$total_feedbacks = count($records);
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="th">
 
 <head>
     <meta charset="UTF-8">
@@ -31,32 +38,45 @@
     <div class="nav" id="main-nav-links">
         <div><button class="close-btn" id="close-menu-button">&#x2715;</button></div>
         <div><a href="Homepage.html" class="nav-a">หน้าแรก</a>
-            <a href="Registration%20Page.php" class="nav-a">ลงทะเบียน</a></div>
+            <a href="Registration Page.php" class="nav-a">ลงทะเบียน</a></div>
     </div>
 </div>
 
 <div class="registration-summary-section">
     <div>
-        <H1 class="registration-summary-header">Feedback Summary</H1>
+        <h1 class="registration-summary-header">Feedback Summary</h1>
     </div>
     <div>
-        <h3 class="registration-summary-sub-header">ผู้ที่เข้ามาแสดงความคิดเห็น (N)</h3>
+        <h3 class="registration-summary-sub-header">ผู้ที่เข้ามาแสดงความคิดเห็น (<?php echo $total_feedbacks; ?> คน)</h3>
     </div>
-    <div class="registration-info">
-        <p><b>ชื่อ: </b>name sur<br><b>อีเมล: </b>aaa@email.com<br><b>ระดับความพึงพอใจ: </b>aaa<br><b>ข้อเสนอแนะเพิ่มเติม: </b></p>
-    </div>
+
+    <?php if ($total_feedbacks > 0): ?>
+        <?php 
+        $reversed_records = array_reverse($records);
+        foreach ($reversed_records as $data): 
+        ?>
+            <div class="registration-info">
+                <p>
+                    <b>ชื่อ: </b> <?php echo htmlspecialchars($data['name']); ?><br>
+                    <b>อีเมล: </b> <?php echo htmlspecialchars($data['email']); ?><br>
+                    <b>ระดับความพึงพอใจ: </b> <?php echo htmlspecialchars($data['rating']); ?> ดาว<br>
+                    <b>ข้อเสนอแนะเพิ่มเติม: </b> <?php echo htmlspecialchars($data['message']); ?><br>
+                    <span style="font-size: 0.8em; color: #888;">(เวลา: <?php echo htmlspecialchars($data['timestamp']); ?>)</span>
+                </p>
+            </div>
+        <?php endforeach; ?>
+    <?php else: ?>
+        <div class="registration-info" style="text-align: center; color: #999;">
+            <p>ยังไม่มีข้อมูลความคิดเห็น</p>
+        </div>
+    <?php endif; ?>
 </div>
 
-
 <footer class="container-fluid bg-light py-3 border-top text-center">
-    <h1 class="mb-0" style="color: black;">ส่วนติดต่อ</h1>
-    <p class="mb-0" style="color: black;">Cheewathep.par@dome.tu.ac.th</p>
+    <p class="mb-0 text-dark">ส่วนติดต่อ</p>
 </footer>
 
 <script src="java-script/all-page.js"></script>
 
 </body>
 </html>
-
-
-

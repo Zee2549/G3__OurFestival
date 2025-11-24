@@ -119,5 +119,16 @@
         "faculty": "คณะวิทยาการเรียนรู้และศึกษาศาสตร์",
         "consent_data": "Yes",
         "consent_news": "Yes"
+    },
+    {
+        "timestamp": "2025-11-24 16:34:40",
+        "fullname": "ariyawe krittayabunlue",
+        "email": "ariyawe.k06@gmail.com",
+        "tel": "0851376640",
+        "gender": "male",
+        "is_student": "yes",
+        "faculty": "คณะสาธารณสุขศาสตร์",
+        "consent_data": "Yes",
+        "consent_news": "No"
     }
 ]
