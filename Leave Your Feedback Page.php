@@ -110,6 +110,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     </section>
     </div>
 
+<footer class="container-fluid bg-light py-3 border-top text-center">
+    <h1 class="mb-0" style="color: black;">ส่วนติดต่อ</h1>
+    <p class="mb-0" style="color: black;">Cheewathep.par@dome.tu.ac.th</p>
+</footer>
 <script src="java-script/all-page.js"></script>
 </body>
 </html>
