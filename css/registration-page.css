@@ -116,4 +116,8 @@
         text-decoration: underline;
     }
 
+    .hidden-faculty {
+        display: none;
+    }
+
     /* จบcss ของ Registration page */

@@ -113,10 +113,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     <label><input type="radio" name="thammasat_student" value="yes" required> ใช่</label>
                     <label><input type="radio" name="thammasat_student" value="no" class="radio"> ไม่ใช่ </label><br><br>
 
+                    <div id="faculty-section" class="hidden-faculty">
                     <label><b>คณะ:</b>
                         <p>(หากท่านเป็นนักศึกษามหาวิทยาลัยธรรมศาสตร์)</p>
                     </label><br>
-                    <select name="faculty" class="input-box">
+                    <select name="faculty" class="input-box" id="faculty-select">
                         <option value="" disabled selected hidden>กรุณาเลือกคณะ...</option>
                         <option>คณะนิติศาสตร์</option>
                         <option>คณะพาณิชยศาสตร์และการบัญชี</option>
@@ -138,6 +139,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                         <option>คณะเภสัชศาสตร์</option>
                         <option>คณะวิทยาการเรียนรู้และศึกษาศาสตร์</option>
                     </select><br><br>
+                    </div>
 
                     <label><input type="checkbox" name="consent_data"> อนุญาต</label>ให้ทำการเก็บข้อมูล<br>
                     <label><input type="checkbox" name="consent_news"> อนุญาต</label>ให้ส่งสิทธิพิเศษสำหรับผู้ลงทะเบียนล่วงหน้า<br><br>
