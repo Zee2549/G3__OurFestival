@@ -6,14 +6,17 @@
     padding-right: 1.5%;
     padding-top: 6%;
 }
+
 .name-member {
     border: 1px solid #ddd;
     border-radius: 8px;
 }
+
 .name-member h2 {
     text-align: center;
 }
-.member-list{
+
+.member-list {
     width: 700px;
     max-width: 90%;
     margin-left: auto;
@@ -21,7 +24,7 @@
     text-align: left;
 }
 
-.about-festival-bg{
+.about-festival-bg {
     background-image: url('../img/Homepage/in_festival.jpg');
     background-repeat: no-repeat;
     width: 100%;
@@ -33,34 +36,34 @@
     padding: 0% 50% 0% 50%;
 }
 
-.about-festival-text{
+.about-festival-text {
     color: white;
-    background-color:rgba(0,0,0,0.4);
-    padding:40px;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 40px;
     border-radius: 10px;
     font-size: 20px;
 }
 
-.about-festival-text-head{
+.about-festival-text-head {
     text-align: center;
     font-size: 50px;
 }
 
-.about-festival-container{
+.about-festival-container {
     display: flex;
     flex-grow: 0;
     position: absolute;
     padding: 20px;
 }
 
-.visit-container{
+.visit-container {
     display: flex;
     flex-direction: row;
     padding: 25px;
     background-color: #f0ecec;
 }
 
-.visit-text{
+.visit-text {
     display: flex;
     flex-grow: 1;
     justify-content: center;
@@ -69,7 +72,7 @@
     font-size: 40px;
 }
 
-.visit-text-align{
+.visit-text-align {
     margin-top: -140px
 }
 
@@ -99,7 +102,7 @@
     background-color: #5aa323;
 }
 
-.please-comment{
+.please-comment {
     background-image: url('../img/Homepage/please-comment.png');
     background-repeat: no-repeat;
     width: 100%;
@@ -110,7 +113,7 @@
     justify-content: center;
 }
 
-.please-comment-container{
+.please-comment-container {
     display: flex;
     flex-grow: 0;
     position: absolute;
@@ -118,37 +121,37 @@
     margin-top: -10%;
 }
 
-.please-comment-text{
+.please-comment-text {
     color: black;
-    padding:20px;
+    padding: 20px;
     font-size: 50px;
 }
 
 @media screen and (max-width: 720px) {
-    .about-festival-bg{
+    .about-festival-bg {
         height: 200px;
         padding: 10px;
     }
 
-    .about-festival-text-head{
+    .about-festival-text-head {
         font-size: 16px;
         text-align: center;
     }
 
-    .about-festival-text{
+    .about-festival-text {
         font-size: 12px;
         padding: 10px;
     }
 
-    .visit-text{
+    .visit-text {
         font-size: 11px;
     }
 
-    .visit-text-align{
+    .visit-text-align {
         margin-top: -35px
     }
 
-    .visit-container{
+    .visit-container {
         background-color: #f0ecec;
         padding: 8px;
     }
@@ -163,17 +166,28 @@
         font-size: 10px;
     }
 
-    .please-comment{
+    .please-comment {
         height: 180px;
         padding: 10px;
     }
 
-    .please-comment-text{
+    .please-comment-text {
         color: black;
-        padding:40px;
+        padding: 40px;
         font-size: 20px;
         text-align: center;
         margin-bottom: 40px;
+    }
+
+    .header h1 {
+        color: #4a2c89;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .header p {
+        color: #666;
+        font-size: 10px;
     }
 }
 
@@ -193,7 +207,7 @@
 }
 
 .container {
-    max-width: 2500px; 
+    max-width: 2500px;
     width: 100%;
 }
 
@@ -204,37 +218,37 @@
 
 .header h1 {
     color: #4a2c89;
-    font-size: 2.5rem;
+    font-size: 40px;
     margin-bottom: 10px;
 }
 
 .header p {
     color: #666;
-    font-size: 1rem;
+    font-size: 20px;
 }
 
 .team-list {
     display: flex;
     flex-direction: column;
-    gap: 5px; 
+    gap: 5px;
 }
 
 .team-card {
     background: white;
     border-radius: 15px;
     padding: 15px;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
     transition: transform 0.2s ease, box-shadow 0.2s ease;
-    
-    display: flex; 
-    flex-direction: row; 
-    align-items: center; 
-    text-align: left; 
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: left;
 }
 
 .team-card:hover {
-    transform: translateX(5px); 
-    box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+    transform: translateX(5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
 }
 
 .avatar {
@@ -249,16 +263,16 @@
     align-items: center;
     justify-content: center;
     box-shadow: 0 4px 10px rgba(104, 66, 181, 0.3);
-    
-    margin-right: 25px; 
-    margin-bottom: 0; 
-    flex-shrink: 0; 
+
+    margin-right: 25px;
+    margin-bottom: 0;
+    flex-shrink: 0;
 }
 
 .info {
     display: flex;
     flex-direction: column;
-    align-items: flex-start; 
+    align-items: flex-start;
     flex-grow: 1;
 }
 
@@ -272,50 +286,76 @@
     color: #333;
     font-size: 1.2rem;
     font-weight: 600;
-    margin-bottom: 8px; }
+    margin-bottom: 8px;
+}
 
 .badge {
     padding: 6px 15px;
-    border-radius: 6px; 
+    border-radius: 6px;
     color: white;
     font-size: 0.8rem;
     font-weight: 500;
     display: inline-block;
 }
 
-.badge.dev { background-color: #6e7ddb; }
-.badge.pm { background: linear-gradient(135deg, #ff9966, #ff5e62); }
-.badge.lead { background-color: #ff9f43; }
-.badge.qa { background-color: #2ecc71; }
+.badge.dev {
+    background-color: #6e7ddb;
+}
 
-@media (max-width: 480px) {
+.badge.pm {
+    background: linear-gradient(135deg, #ff9966, #ff5e62);
+}
+
+.badge.lead {
+    background-color: #ff9f43;
+}
+
+.badge.qa {
+    background-color: #2ecc71;
+}
+
+@media (max-width: 720px) {
     .team-card {
         flex-direction: column;
         text-align: center;
     }
+
     .avatar {
         margin-right: 0;
         margin-bottom: 15px;
     }
+
     .info {
         align-items: center;
     }
+    .header h1 {
+        color: #4a2c89;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .header p {
+        color: #666;
+        font-size: 10px;
+    }
 }
+
 .social-icons {
     display: flex;
-    gap: 15px; 
-    justify-content: flex-end; 
+    gap: 15px;
+    justify-content: flex-end;
 }
 
 .social-icons a {
-    color: black; 
-    font-size: 30px; 
+    color: black;
+    font-size: 30px;
     transition: transform 0.2s ease, color 0.2s ease;
     text-decoration: none;
 }
 
 .social-icons a:hover {
-    transform: scale(1.1); 
-    color: #4a2c89; 
+    transform: scale(1.1);
+    color: #4a2c89;
 }
+
 /* จบcss ของ Home page */
