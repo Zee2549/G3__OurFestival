@@ -229,14 +229,23 @@
 
 .team-list {
     display: flex;
+    flex-grow: 1;
     flex-direction: column;
     gap: 5px;
+    margin-bottom: 10px;
+}
+
+.team-list-align {
+    display: flex;
+    flex-direction: row;
 }
 
 .team-card {
     background: white;
     border-radius: 15px;
     padding: 15px;
+    width: 100%;
+    margin-left: 0.4%;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
     transition: transform 0.2s ease, box-shadow 0.2s ease;
 
@@ -318,6 +327,15 @@
     .team-card {
         flex-direction: column;
         text-align: center;
+    }
+
+    .team-list {
+        padding: 0;
+        flex-direction: column;
+    }
+
+    .team-list-align {
+        flex-direction: column;
     }
 
     .avatar {
