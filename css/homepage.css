@@ -219,7 +219,7 @@
     gap: 5px; 
 }
 
-.card {
+.team-card {
     background: white;
     border-radius: 15px;
     padding: 15px;
@@ -232,7 +232,7 @@
     text-align: left; 
 }
 
-.card:hover {
+.team-card:hover {
     transform: translateX(5px); 
     box-shadow: 0 8px 25px rgba(0,0,0,0.1);
 }
@@ -289,7 +289,7 @@
 .badge.qa { background-color: #2ecc71; }
 
 @media (max-width: 480px) {
-    .card {
+    .team-card {
         flex-direction: column;
         text-align: center;
     }
@@ -303,19 +303,19 @@
 }
 .social-icons {
     display: flex;
-    gap: 15px; /* ระยะห่างระหว่างไอคอน */
-    justify-content: flex-end; /* จัดไอคอนชิดขวา */
+    gap: 15px; 
+    justify-content: flex-end; 
 }
 
 .social-icons a {
-    color: black; /* สีไอคอนเป็นสีดำ (ตามรูป) */
-    font-size: 30px; /* ขนาดไอคอน */
+    color: black; 
+    font-size: 30px; 
     transition: transform 0.2s ease, color 0.2s ease;
     text-decoration: none;
 }
 
 .social-icons a:hover {
-    transform: scale(1.1); /* ขยายเมื่อเอาเมาส์ชี้ */
-    color: #4a2c89; /* เปลี่ยนสีเมื่อชี้ */
+    transform: scale(1.1); 
+    color: #4a2c89; 
 }
 /* จบcss ของ Home page */
